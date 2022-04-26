@@ -10,15 +10,45 @@ import Rank from './components/Rank/Rank';
 import './App.css';
  
 const particlesOptions = {
-  //customize this to your liking
   particles: {
+    color: {
+      value: "#ffffff",
+    },
+    links: {
+      color: "#ffffff",
+      distance: 150,
+      enable: true,
+      opacity: 0.5,
+      width: 1,
+    },
+    collisions: {
+      enable: true,
+    },
+    move: {
+      direction: "random",
+      enable: true,
+      outMode: "bounce",
+      random: true,
+      speed: 3,
+      straight: false,
+    },
     number: {
-      value: 30,
       density: {
         enable: true,
-        value_area: 800
-      }
-    }
+        area: 800,
+      },
+      value: 80,
+    },
+    opacity: {
+      value: 0.5,
+    },
+    shape: {
+      type: "square",
+    },
+    size: {
+      random: true,
+      value: 5,
+    },
   }
 }
 
