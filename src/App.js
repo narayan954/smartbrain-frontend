@@ -11,46 +11,78 @@ import './App.css';
  
 const particlesOptions = {
   particles: {
-    color: {
-      value: "#ffffff",
-    },
-    links: {
-      color: "#ffffff",
-      distance: 150,
-      enable: true,
-      opacity: 0.5,
-      width: 1,
-    },
-    collisions: {
-      enable: true,
-    },
-    move: {
-      direction: "random",
-      enable: true,
-      outMode: "bounce",
-      random: true,
-      speed: 3,
-      straight: false,
-    },
     number: {
+      value: 100,
       density: {
         enable: true,
-        area: 800,
-      },
-      value: 80,
+        value_area: 800
+      }
     },
-    opacity: {
-      value: 0.5,
-    },
+  //   color: {
+  //     value: "#ffffff"
+  //   },
     shape: {
-      type: "square",
+      type: "circle",
+      stroke: {
+        width: 0,
+        color: "#000000"
+      },
     },
+
     size: {
+      value: 3,
       random: true,
-      value: 5,
+      anim: {
+        enable: true,
+        speed: 40,
+        size_min: 0.1,
+        sync: true
+      }
     },
-  }
+
+  },
+  interactivity: {
+    detect_on: "window",
+    events: {
+      onhover: {
+        enable: true,
+        mode: "repulse"
+      },
+      onclick: {
+        enable: true,
+        mode: "push"
+      },
+      resize: true
+    }
+ 
+} 
 }
+// {
+//   //customize this to your liking
+//   particles: {
+//     number: {
+//       value: 100,
+//       density: {
+//         enable: true,
+//         value_area: 800
+//       }
+//     },
+//     interactivity: {
+//       detect_on: "window",
+//       events: {
+//           onhover: {
+//               "enable": true,
+//               "mode": "bubble"
+//           },
+//           onclick: {
+//               "enable": true,
+//               "mode": "bubble"
+//           },
+//           "resize": true
+//       }
+//   }
+// }
+// }
 
 const initialState = {
   input: '',
