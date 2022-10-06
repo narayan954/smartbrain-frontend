@@ -2,7 +2,7 @@
 
 ![brain-home](https://user-images.githubusercontent.com/77617189/180434354-49a3fbeb-5efa-42f8-a624-894a40391dd1.png)
 
-Visit [live site](https://smart-brain-420.herokuapp.com/) 
+Visit [live site](https://smart-brain-420.herokuapp.com/)
 
 For a demo use the credentials below else you can always register yourself
 <br>
