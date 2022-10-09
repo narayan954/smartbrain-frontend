@@ -172,7 +172,7 @@ If you found a technical bug on Smart-Brain or have ideas for features we should
 Thanks a lot for spending your time helping smartbrain-frontend grow. Thanks a lot! Keep rocking 🍻
 
 [![Contributors](https://contrib.rocks/image?repo=narayan954/smartbrain-frontend)](https://github.com/narayan954/smartbrain-frontend/graphs/contributors)
-  
+
 ## GitHub
 
 smartbrain-frontend is now part of GitHub. For code of conduct, please see [GitHub's Community Guidelines](https://help.github.com/en/github/site-policy/github-community-guidelines) and [Acceptable Use Policies](https://help.github.com/en/github/site-policy/github-acceptable-use-policies).
