@@ -1,15 +1,20 @@
 body {
   margin: 0;
-  font-family: 'Courier New',courier,monospace,'Roboto', sans-serif;
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,75,121,1) 35%, rgba(0,212,255,1) 100%);
+  font-family: "Courier New", courier, monospace, "Roboto", sans-serif;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 75, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-  monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
 
 button {
