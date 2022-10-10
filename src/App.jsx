@@ -121,7 +121,7 @@ class App extends Component {
     const width = Number(image.width);
     const height = Number(image.height);
 
-    let boxes = [];
+    const boxes = [];
     if (data?.outputs?.length) {
       for (const output of data.outputs) {
         for (const region of output.data.regions) {
@@ -195,7 +195,9 @@ class App extends Component {
                   }
                 })
                 .then((count) => {
-                  this.setState(Object.assign(this.state.user, { entries: count }));
+                  this.setState(
+                    Object.assign(this.state.user, { entries: count })
+                  );
                 })
                 .catch(this.onError);
             }
@@ -222,11 +224,17 @@ class App extends Component {
     return (
       <div className="App">
         <Particles className="particles" params={particlesOptions} />
-        <Navigation isSignedIn={isSignedIn} onRouteChange={this.onRouteChange} />
+        <Navigation
+          isSignedIn={isSignedIn}
+          onRouteChange={this.onRouteChange}
+        />
         {route === "home" ? (
           <div>
             <Logo />
-            <Rank name={this.state.user.name} entries={this.state.user.entries} />
+            <Rank
+              name={this.state.user.name}
+              entries={this.state.user.entries}
+            />
             <ImageLinkForm
               onInputChange={this.onInputChange}
               onButtonSubmit={this.onButtonSubmit}
@@ -237,7 +245,10 @@ class App extends Component {
         ) : route === "signin" ? (
           <Signin loadUser={this.loadUser} onRouteChange={this.onRouteChange} />
         ) : (
-          <Register loadUser={this.loadUser} onRouteChange={this.onRouteChange} />
+          <Register
+            loadUser={this.loadUser}
+            onRouteChange={this.onRouteChange}
+          />
         )}
       </div>
     );
