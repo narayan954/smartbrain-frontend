@@ -1,10 +1,23 @@
-# Project SmartBrain
+<div align="center">
+<h1>Project SmartBrain</h1>
 
-![brain-home](https://user-images.githubusercontent.com/77617189/180434354-49a3fbeb-5efa-42f8-a624-894a40391dd1.png)
+<img  src="https://user-images.githubusercontent.com/77617189/198992812-112ef0fb-53e5-4340-8db5-814f5f0051c8.png"  alt="Dummygram"  width="200"  height="200">
 
-Visit [live site](https://smart-brain-420.herokuapp.com/)
+[See Live!](https://smart-brain-420.herokuapp.com/)
 
-For a demo use the credentials below else you can always register yourself
+### *Face Detection*, simplified
+
+![Issues](https://img.shields.io/github/issues/narayan954/smartbrain-frontend?color=brightgreen)
+![Pull requests](https://img.shields.io/github/issues-pr/narayan954/smartbrain-frontend)
+![Forks](https://img.shields.io/github/forks/narayan954/smartbrain-frontend)
+![Stars](https://img.shields.io/github/stars/narayan954/smartbrain-frontend)
+![Licence](https://img.shields.io/github/license/narayan954/smartbrain-frontend?color=orange)
+
+---
+
+</div>
+
+For demo use the credentials below, else you can always register yourself!
 <br>
 Test email - tester@gmail.com
 Test password - test1234
@@ -12,12 +25,17 @@ Test password - test1234
 [Example image1](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz7Ao9wK0YhBDG1AT3hCkMHqy7pvTxvUIMVJzVgoy9dOB3zGfqh_Fz2guyakBFASrs56c&usqp=CAU)
 <br>
 [Example image2](https://static.remove.bg/remove-bg-web/5c20d2ecc9ddb1b6c85540a333ec65e2c616dbbd/assets/start-1abfb4fe2980eabfbbaaa4365a0692539f7cd2725f324f904565a9a744f8e214.jpg)
+<br>
+[Example image3 with multiple faces](https://i.stack.imgur.com/FoOYR.jpg)
 
 ### SmartBrain is a web application which uses ReactJs in the front end, Node.JS, Express.JS and PostgreSQL for its server and database respectively and detect faces in an image using an image recognition API
 
 #### To give you a flavor of the app, here is an screenshot of home page
+![brain-home](https://user-images.githubusercontent.com/77617189/180434354-49a3fbeb-5efa-42f8-a624-894a40391dd1.png)
 
-![brain-ss](https://user-images.githubusercontent.com/77617189/180434335-ae41c960-cbde-4c46-a25d-e4e3abd9be76.png)
+#### Some tested examples can be seen below
+![brain-ss1](https://user-images.githubusercontent.com/77617189/180434335-ae41c960-cbde-4c46-a25d-e4e3abd9be76.png)
+![brain-ss2](https://user-images.githubusercontent.com/77617189/198991743-678fb81b-a10f-4a00-8628-cdef6aaa11cd.png)
 
 To work locally on this repo:
 
