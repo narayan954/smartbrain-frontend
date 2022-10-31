@@ -5,7 +5,7 @@
 
 [See Live!](https://smart-brain-420.herokuapp.com/)
 
-### *Face Detection*, simplified
+### _Face Detection_, simplified
 
 ![Issues](https://img.shields.io/github/issues/narayan954/smartbrain-frontend?color=brightgreen)
 ![Pull requests](https://img.shields.io/github/issues-pr/narayan954/smartbrain-frontend)
@@ -31,9 +31,11 @@ Test password - test1234
 ### SmartBrain is a web application which uses ReactJs in the front end, Node.JS, Express.JS and PostgreSQL for its server and database respectively and detect faces in an image using an image recognition API
 
 #### To give you a flavor of the app, here is an screenshot of home page
+
 ![brain-home](https://user-images.githubusercontent.com/77617189/180434354-49a3fbeb-5efa-42f8-a624-894a40391dd1.png)
 
 #### Some tested examples can be seen below
+
 ![brain-ss1](https://user-images.githubusercontent.com/77617189/180434335-ae41c960-cbde-4c46-a25d-e4e3abd9be76.png)
 ![brain-ss2](https://user-images.githubusercontent.com/77617189/198991743-678fb81b-a10f-4a00-8628-cdef6aaa11cd.png)
 
